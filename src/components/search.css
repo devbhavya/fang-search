@@ -66,8 +66,17 @@ top: 65px;
 }
 .fang_logo{
     position: absolute;
+<<<<<<< HEAD
 width: 200px;
 height: 30px;
 right: 120px;
 top: 58px;
 }
+=======
+    width: 200px;
+    left:1200px ;
+    top: 58px;
+}
+
+  
+>>>>>>> 18596549a7b0bee2edc678039814ab4f0aa9ec76
