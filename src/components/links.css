@@ -1,0 +1,55 @@
+.links-header{
+    position: absolute;
+left: 103px;
+top: 86px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin: 10px;    
+}
+.bi{
+width: 16px;
+height: 13px;
+}
+.firstlink{
+    color: blue;
+}
+.blue_rectangle{
+    position: absolute;
+width: 35px;
+height: 5px;
+left: 53px;
+top: 60px;
+
+background: rgba(45, 29, 221, 0.88);
+border-radius: 1px;
+}
+.horizontal_line1{
+    position: absolute;
+width: 1440px;
+height: 0px;
+top: 57px;
+left: -50px;
+
+border: 1px solid rgba(189, 189, 189, 0.38);
+}
+.tools{
+    position: absolute;
+width: 33px;
+height: 16px;
+left: 625px;
+top: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #313131;
+}
