@@ -33,8 +33,8 @@ function App() {
         <div classNameName="about_result">
           <Company></Company>
         </div>
-      <EmployeeDashboard></EmployeeDashboard>
       </div>
+      <EmployeeDashboard></EmployeeDashboard>
     </div>
   );
 }

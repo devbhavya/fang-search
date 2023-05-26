@@ -4,9 +4,11 @@ import { useState } from 'react';
 import 'react-calendar/dist/Calendar.css';
 import Calendar from "react-calendar";
 import  styled from "styled-components";
+import moment from 'moment'
+
 const AllEmployees = () =>{
-    const desiredStartDate = new Date(2023, 4, 1); // May 1, 2023
-  const desiredEndDate = new Date(2023, 4, 10); // May 10, 2023
+    const desiredStartDate = moment("05/24/2023")
+  const desiredEndDate = moment("05/30/2023")
 
   const tileContent = ({ date }) => {
     const isDesiredRange=date === desiredStartDate ;
@@ -23,6 +25,7 @@ const AllEmployees = () =>{
     }
     return null; // Return null for no custom class
   };
+  console.log("sgddsg")
     return(
         <div className="All-Employees-Container">
             <div className="All-Employees-Data">
@@ -32,12 +35,18 @@ const AllEmployees = () =>{
                 <button id="All-Employees-ViewMore-Button"><i class="bi bi-chevron-right"></i></button>
             </div>
             <div className="All-Employees-Calender">
-                <CalendarContainer>
+                {/* <CalendarContainer> */}
                     <Calendar
                        tileContent={tileContent}
+                       tileClassName={({date}) =>{
+                        const currentDate = moment(date)
+                        if (desiredStartDate.isSame(currentDate)) return 'first-date';
+                        if (desiredEndDate.isSame(currentDate) ) return 'last-date';
+                        if (moment(date).isBetween(desiredStartDate, desiredEndDate)) return 'middle-date'
+                       }}
                     />
                     
-                </CalendarContainer>
+                {/* </CalendarContainer> */}
                 <p id="Calendar-Schedule-Text">Schedules</p>
                 <p id="Schedule-MorningShift">MorningShift</p>
                 <p id="Schedule-NightShift">NightShift</p>
