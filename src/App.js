@@ -7,6 +7,7 @@ import UserList from "./components/result";
 import Company from "./components/company";
 import Andlinks from "./components/andlinks";
 import EmployeeDashboard from './components/EmployeeDashboard';
+// import SearchComp from './components/SearchPage/Search'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         </div>
       </div>
       <EmployeeDashboard></EmployeeDashboard>
+      {/* <SearchComp /> */}
     </div>
   );
 }

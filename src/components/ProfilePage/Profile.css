@@ -1,0 +1,43 @@
+
+.rectangleone{
+box-sizing: border-box;
+
+position: absolute;
+width: 348.78px;
+height: 90px;
+left: 42.58px;
+top: 135px;
+
+border: 1.01389px solid rgba(201, 201, 201, 0.25);
+filter: drop-shadow(0px 4.05556px 4.05556px rgba(0, 0, 0, 0.25));
+border-radius: 10.1389px;
+}
+
+.texting{
+position: absolute;
+width: 130px;
+height: 5px;
+left: 168.31px;
+top: 173px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.img{
+position: absolute;
+left: 7%;
+right: 90.87%;
+top: 25.5%;
+bottom: 72.9%;
+width:40px;
+height:40px;
+
+
+}
