@@ -6,6 +6,7 @@ import "./App.css";
 import UserList from "./components/result";
 import Company from "./components/company";
 import Andlinks from "./components/andlinks";
+import EmployeeDashboard from './components/EmployeeDashboard';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <div classNameName="about_result">
           <Company></Company>
         </div>
+      <EmployeeDashboard></EmployeeDashboard>
       </div>
     </div>
   );

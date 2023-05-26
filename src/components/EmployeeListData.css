@@ -1,0 +1,44 @@
+.Employee_List-Data-Container{
+    margin-top: 40px;
+}
+#EmployeeProfile{
+    padding-left: 52px;
+    padding-top: 129px;
+}
+#Employee-List-Employee-Name{
+    margin-left: 90px;
+    margin-top: -29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+#Employee-List-Employee-Schedule{
+    margin-left: 90px;
+    margin-top: -10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #AEA4A4;
+}
+#Employee-List-Employee-Dob{
+    text-align: right;
+    margin-right: 34px;
+    margin-top: -48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #AEA4A4;
+}
+#Horizontal-Line{
+    margin-top: 45px;
+    margin-left: 34px;
+    width: 290px;
+    height: 1px;
+}
