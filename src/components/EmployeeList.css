@@ -1,0 +1,52 @@
+.Employee-List-Container{
+    height: 578.29px;
+    background: #FFFBFB;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+
+}
+
+#Employee-List-Header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 52px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+
+}
+#Employee-List-Dob{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #210FF9;
+    margin-top: -45px;
+    padding-right: 30px;
+    text-align: right;
+}
+#Show-More-Button{
+    position: relative;
+    width: 291px;
+    height: 59px;
+    background: #CCC9F7;
+    border-radius: 15px;
+    top: 22px;
+    left: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 19px;
+    color: #210FF9;
+    border: #000000;
+}
+.Show-More-Container{
+    background-color: white;
+    height: 100px;
+    margin-top: -30px;
+}

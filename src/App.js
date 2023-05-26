@@ -1,17 +1,14 @@
-import Search from "./components/search";
-import About from "./components/about";
-import Result from "./components/result";
-import "./App.css";
-import "./components/search.css";
-import Links from "./components/links";
+import logo from './logo.svg';
+import EmployeeDashboard from './components/EmployeeDashboard';
+import './App.css';
+import { useState } from 'react';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Search></Search>
-      <Links></Links>
-      <About></About>
-      <Result></Result>
+  return ( 
+    <div>
+      <EmployeeDashboard></EmployeeDashboard>
     </div>
   );
 }

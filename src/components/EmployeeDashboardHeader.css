@@ -1,0 +1,52 @@
+.Employee-Dashboard-Header{
+    background-color: #FFFBFB;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: 450px;
+    margin: 200px 50px 100px 50px ;
+    border-radius: 30px;
+    /* overflow-y: auto;
+    overflow-x: hidden; */
+
+}
+@media (max-width: 1024px) {
+    .Employee-Dashboard-Header{
+        width: auto;
+    }
+  }
+@media (max-width:700px){
+    .Employee-Dashboard-Header{
+        margin-bottom: 50px;
+        padding-bottom: 0px;
+        height: 350px;
+    }
+}
+@media(min-wdth:700px){
+    .Employee-Dashboard-Header{
+        height: 300px;
+    }
+}
+@media (max-width:480px){
+    .Employee-Dashboard-Header{}
+}
+.Text{
+    position: sticky;
+    /* Employee Dashboard */
+    padding-left: 50px;
+    padding-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+}
+@media (max-width:770px){
+    .Text{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px; 
+        padding-left: 10px;
+    }
+}
