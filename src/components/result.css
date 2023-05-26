@@ -1,0 +1,160 @@
+.search_results {
+  position: relative;
+  left: 14%;
+}
+.search_count {
+  position: relative;
+  width: 100%;
+  left: 14%;
+  top: -2%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.78);
+
+  border: 1px solid rgba(245, 245, 245, 0.1);
+}
+.group_logo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0%;
+}
+.group_title {
+  position: relative;
+  width: 80%;
+  left: 40px;
+  top: -5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.group_url {
+  position: relative;
+  width: 80%;
+  left: 40px;
+  top: -15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.group_title2{
+    position: relative;
+width: 70%;
+top: -10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #BB1E85;
+}
+.group_desc{
+position: relative;
+width: 65%;
+top: -20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* or 136% */
+
+
+color: #000000;
+}
+.group_url2{
+    position: relative;
+width: 80%;
+top: -30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.group_lastvisited{
+    position: relative;
+    width: 80%;
+    top: -30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.sublinks{
+    list-style-type: none;
+}
+.subtitle{
+position: relative;
+width: 80%;
+top: -20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #080593;
+}
+.subdesc{
+    position: relative;
+width: 80%;
+top: -25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+}
+@media (max-width: 768px){
+  .search_results{
+    left: 0%;
+    top: -30px;
+  }
+  .search_results .sublinks{
+    display: none;
+  }
+  .search_count{
+    left: 0%;
+    top: -30px;
+  }
+  .group_desc{
+    width: 100%;
+  }
+}

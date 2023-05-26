@@ -1,0 +1,30 @@
+.links ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+.links li{
+    margin:10px;
+    cursor: pointer;
+}
+.links .links-header .selected_link{
+    color: blue;
+    font-family: 'Inter';
+    font-style: normal;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    padding-bottom: 10px;
+}
+.links{
+    grid-area: Links;
+    position: relative;
+    width: 70%;
+    left: 7%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 16px;
+}
