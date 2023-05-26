@@ -1,0 +1,43 @@
+
+.Employee-Dashboard-Container{
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.Child-Container{
+    flex: 1;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.Child-Container:last-child{
+    margin-right: 0px;
+}
+@media (max-width: 1200px) {
+    .Child-Container{
+      flex-basis: calc(33.33% - 10px);
+    }
+    .Child-Container:last-child{
+      margin-right: 50px;
+      margin-right: 450px;
+  }
+  }
+
+  @media (max-width: 800px) {
+    .Child-Container{
+      flex-basis: calc(50% - 20px);
+    }
+    .Child-Container:last-child{
+      margin-right: 50px;
+  }
+  }
+  
+  @media (max-width: 480px) {
+    .Child-Container {
+      flex-basis: 100%;
+    }
+    .Child-Container:last-child{
+      margin-right: 100px;
+  }
+  }
