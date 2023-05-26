@@ -1,0 +1,103 @@
+.androidcompany {
+  display: none;
+}
+@media (max-width: 768px) {
+  .androidcompany {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    padding-bottom: 100px;
+  }
+  .androidcompany .company_name {
+    width: 70%;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 600px;
+    }
+  .street_address_android {
+    position: relative;
+    font-size: 13px;
+    top: -20px;
+    left: 10px;
+  }
+  .androidcompany .map1{
+    position: absolute;
+width: 64px;
+height: 65px;
+left: 80%;
+right: 10%;
+top: 3%;
+border-radius: 10px;
+  }
+  .androidcompany ul{
+    list-style-type: none;
+    position: relative;
+    display: grid;
+    left: -30px;
+    text-align: center;
+    grid-template-columns: repeat(5 , 1fr)
+  }
+  .androidcompany ul .selected{
+    color: blue;
+    font-weight: 700;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    padding-bottom: 10px;
+  }
+  .androidcompany li{
+    float: left;
+    margin-left: 10px;
+  }
+  .androidcompany .bi{
+    margin-left: 25px;
+    color: blue;
+    padding: 10px;
+    border-radius: 50%;
+    border:2px solid blue;
+  }
+  .androidcompany .bi_below{
+    font-weight: 700;
+    color: blue;
+  }
+  .androidcompany .below{
+    text-align: center;
+    position: relative;
+  }
+  .androidcompany .horizontal{
+    position: relative;
+    top: -15px;
+    margin-bottom: ;
+  }
+  .androidcompany .map{
+    display: grid;
+    grid-template-columns: 0.1fr 0.7fr 0.5fr;
+  }
+  .androidcompany .image_map{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 2%;
+  }
+  .androidcompany .map .bi{
+    border: none;
+    position: relative;
+    top: 20px;
+  }
+  .androidcompany .main_address{
+    position: relative;
+    top: 20px;
+  }
+  .androidcompany .more_button{
+    position: relative;
+    top: 70px;
+    width: 80%;
+height: 37px;
+left: 10%;
+border-radius: 30px;
+  }
+}
