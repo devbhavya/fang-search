@@ -16,15 +16,26 @@ const data = [
     lastvisited: "You’ve visited this page 5 times.Lastvisit:18/4/23",
     url2: "",
     sublinks: [{ 
-        subtitle1: "Contact Us",
-        subdesc1: "Fang Technologies is a leading provider of innovative software...", 
-        subtitle2: "Our servicess",
-        subdesc2: "Take your business to the next level...Software publishing...", 
-        subtitle3: "Our Products",
-        subdesc3: "Ai Enabled Monitoring System.Monitor your user flow in...",
-        subtitle4: "More results from fangtechnologies.com >>",
-        subdesc4: "",
-    }],
+      id:1,
+      title: "Contact Us",
+      description: "Fang Technologies is a leading provider of innovative software...", 
+    },
+    {
+      id:2,
+      title: "Our servicess",
+      description: "Take your business to the next level...Software publishing...", 
+    },
+    {
+      id:3,
+      title: "Our Products",
+      description: "Ai Enabled Monitoring System.Monitor your user flow in...",
+    },
+    {
+      id:4,
+      title: "More results from fangtechnologies.com >>",
+      description: "",
+    },
+  ],
   },
   {
     id: 2,
@@ -36,15 +47,11 @@ const data = [
     lastvisited: "You’ve visited this page 5 times.Lastvisit:18/4/23",
     url2: "https://in.linkedin.com>company>fang-technologies ",
     sublinks: [{ 
-        subtitle1: "Fangs Technology Pvt Ltd (vivo-TN)",
-        subdesc1: "vivo the brand  is owned by chinese electronic manufacturing giant BBK Electronics industry co.,ltd.BBK factory was founded in 1995 and it is headed by MR.", 
-        subtitle2: "",
-        subdesc2: "", 
-        subtitle3:"",
-        subdesc3: "",
-        subtitle4: "",
-        subdesc4: "",
-    }],
+      id:1,
+      title: "Fangs Technology Pvt Ltd (vivo-TN)",
+      description: "vivo the brand  is owned by chinese electronic manufacturing giant BBK Electronics industry co.,ltd.BBK factory was founded in 1995 and it is headed by MR.", 
+    },
+  ],
   },
   {
     id: 3,
@@ -56,15 +63,11 @@ const data = [
     lastvisited: "",
     url2: "",
     sublinks: [{ 
-        subtitle1: "Fang Technologies LLC",
-        subdesc1: "GitHub is where  Fang Technologies LLC builds software.  ", 
-        subtitle2: "",
-        subdesc2: "", 
-        subtitle3:"",
-        subdesc3: "",
-        subtitle4: "",
-        subdesc4: "",
-    }],
+      id:1,
+      title: "Fang Technologies LLC",
+      description: "GitHub is where  Fang Technologies LLC builds software.", 
+    },
+  ],
   },
   {
     id: 4,
@@ -76,15 +79,26 @@ const data = [
     lastvisited: "You’ve visited this page 5 times.Lastvisit:18/4/23",
     url2: "",
     sublinks: [{ 
-        subtitle1: "Contact Us",
-        subdesc1: "Fang Technologies is a leading provider of innovative software...", 
-        subtitle2: "Our servicess",
-        subdesc2: "Take your business to the next level...Software publishing...", 
-        subtitle3: "Our Products",
-        subdesc3: "Ai Enabled Monitoring System.Monitor your user flow in...",
-        subtitle4: "More results from fangtechnologies.com >>",
-        subdesc4: "",
-    }],
+      id:1,
+      title: "Contact Us",
+      description: "Fang Technologies is a leading provider of innovative software...", 
+    },
+    {
+      id:2,
+      title: "Our servicess",
+      description: "Take your business to the next level...Software publishing...", 
+    },
+    {
+      id:3,
+      title: "Our Products",
+      description: "Ai Enabled Monitoring System.Monitor your user flow in...",
+    },
+    {
+      id:4,
+      title: "More results from fangtechnologies.com >>",
+      description: "",
+    },
+  ],
   },
 ];
 var count = 0;
@@ -105,14 +119,8 @@ function UserList() {
           <ul className="sublinks">
             {group.sublinks.map((subdata) => (
               <li key={subdata.id}>
-               <a> {subdata.subtitle1!=="" && <p className="subtitle">{subdata.subtitle1}</p>}
-                {subdata.subdesc1!=="" && <p className="subdesc">{subdata.subdesc1}</p>}
-                {subdata.subtitle2!=="" && <p className="subtitle">{subdata.subtitle2}</p>}
-                {subdata.subdesc2!=="" && <p className="subdesc">{subdata.subdesc2}</p>}
-                {subdata.subtitle3!=="" && <p className="subtitle">{subdata.subtitle3}</p>}
-                {subdata.subdesc3!=="" && <p className="subdesc">{subdata.subdesc3}</p>}
-                {subdata.subtitle4!=="" && <p className="subtitle">{subdata.subtitle4}</p>}
-                {subdata.subdesc4!=="" && <p className="subdesc">{subdata.subdesc4}</p>}</a>
+                {subdata.title!=="" && <p className="subtitle">{subdata.title}</p>}
+                {subdata.description!=="" && <p className="subdesc">{subdata.description}</p>}
               </li>
             ))}
           </ul>
