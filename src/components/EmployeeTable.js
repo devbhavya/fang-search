@@ -6,11 +6,7 @@ const EmployeeTable = (props) =>{
       ];
     return(
         <div className="table-container">
-<<<<<<< HEAD
             <table className="table">
-=======
-            <table class="table">
->>>>>>> develop
             <thead>
                 <tr>
                     <th>SI.NO:</th>
@@ -24,11 +20,7 @@ const EmployeeTable = (props) =>{
             <tbody>
             {
                         props.EmployeeData.map((employee) =>(
-<<<<<<< HEAD
                             <tr key={employee.id}>
-=======
-                            <tr>
->>>>>>> develop
                                 <td>{employee.id}</td>
                                 <td><i class="bi bi-person-circle"></i><p className="Table-Employee-Name">{employee.name}</p></td>
                                 <td>{employee.schedule}</td>
