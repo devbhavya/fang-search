@@ -41,14 +41,14 @@ const EmployeeDetails=[
             status:'Active',
         },
         {
-            id:'4',
+            id:'6',
             name:'Ranbir',
             schedule:'morning',
             dob:new Date(2002,8,28),
             status:'Active',
         },
         {
-            id:'5',
+            id:'7',
             name:'Sumanth',
             schedule:'morning',
             dob:new Date(2002,8,28),

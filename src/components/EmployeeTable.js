@@ -6,7 +6,7 @@ const EmployeeTable = (props) =>{
       ];
     return(
         <div className="table-container">
-            <table class="table">
+            <table className="table">
             <thead>
                 <tr>
                     <th>SI.NO:</th>
@@ -20,7 +20,7 @@ const EmployeeTable = (props) =>{
             <tbody>
             {
                         props.EmployeeData.map((employee) =>(
-                            <tr>
+                            <tr key={employee.id}>
                                 <td>{employee.id}</td>
                                 <td><i class="bi bi-person-circle"></i><p className="Table-Employee-Name">{employee.name}</p></td>
                                 <td>{employee.schedule}</td>

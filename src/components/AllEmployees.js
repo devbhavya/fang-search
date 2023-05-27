@@ -16,7 +16,7 @@ const AllEmployees = () =>{
       };
     // Check if the current date falls within the desired range
     if (date === desiredStartDate ){
-      return <div style={tileStyle}>{date.getDate()}</div>;
+      return console.log(date);
     }
     if(date === desiredEndDate){
         return 'desired-end-date';
@@ -32,12 +32,12 @@ const AllEmployees = () =>{
                 <button id="All-Employees-ViewMore-Button"><i class="bi bi-chevron-right"></i></button>
             </div>
             <div className="All-Employees-Calender">
-                <CalendarContainer>
+                {/* <CalendarContainer> */}
                     <Calendar
                        tileContent={tileContent}
                     />
                     
-                </CalendarContainer>
+                {/* </CalendarContainer> */}
                 <p id="Calendar-Schedule-Text">Schedules</p>
                 <p id="Schedule-MorningShift">MorningShift</p>
                 <p id="Schedule-NightShift">NightShift</p>
