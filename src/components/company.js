@@ -5,7 +5,7 @@ import "./company.css";
 const Company = () => {
   return (
     <>
-      <div className="company">
+      <div className="compan">
         <img className="map1" src={map1}></img>
         <img className="map2" src={map2}></img>
         <p className="company_name">Fang Technologies</p>

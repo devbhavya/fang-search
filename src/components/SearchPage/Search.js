@@ -1,12 +1,13 @@
 import React from 'react';
 import './Search.css';
 import Logo from './fanglogo.jpg';
+import { Link } from 'react-router-dom';
 function Search() { 
     return(
         <div>
         <form>
-        <input class="searchbar" type="text" title="Search"></input>
-        <button class="button">Fang Search</button>
+        <input class="search_bar" type="text" title="Search"></input>
+        <Link to="/search"><button class="button">Fang Search</button></Link>
         </form>
         <div >
             <img src={Logo} alt="fang logo" className="image"></img>

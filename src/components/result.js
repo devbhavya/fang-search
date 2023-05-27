@@ -1,9 +1,10 @@
 import React from "react";
+import {useNavigate} from 'react-router-dom'
 import './result.css'
 import Globe from './images/globe.svg'
 import Linkedin from './images/linkedin.svg'
 import Github from './images/github.svg'
-import Company from "./company";
+// import Company from "./company";
 import Androidcompany from "./androidcompany";
 const data = [
   {
@@ -101,12 +102,13 @@ const data = [
   ],
   },
 ];
-var count = 0;
+// var count = 0;
 function UserList() {
+  const history = useNavigate()
   return (
     <>
     <div className="search_count">About 18,20,00,000 results(0.47seconds) </div>
-    <div className="search_results">
+    <div className="search_results" onClick={()=>{history('/dashboard')}}>
       {data.map((group) => (
         <div key={group.id}>
           <img className="group_logo" src={group.logo} alt="group-logo"></img>
@@ -124,7 +126,7 @@ function UserList() {
               </li>
             ))}
           </ul>
-          {group.id==1 && <Androidcompany></Androidcompany>}
+          {group.id===1 && <Androidcompany></Androidcompany>}
         </div>
       ))}
     </div>

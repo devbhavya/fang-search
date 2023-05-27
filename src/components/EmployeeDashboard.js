@@ -1,9 +1,11 @@
 import React from "react";
+import {useNavigate} from 'react-router-dom'
 import './EmployeeDashboard.css';
 import EmployeeDuties from "./EmployeeDuties";
 import EmployeeList from "./EmployeeList";
 import AllEmployees from "./AllEmployees";
 import EmployeeDashboardHeader from "./EmployeeDashboardHeader";
+import Header from './ProfilePage/Header'
 const EmployeeDetails=[
         {
             id:'1',
@@ -56,11 +58,12 @@ const EmployeeDetails=[
         },
     ];
 const EmployeeDashboard = () =>{
+    const history = useNavigate()
     return (
         <>
-        
+            <Header></Header>
             <EmployeeDashboardHeader details={EmployeeDetails}></EmployeeDashboardHeader>
-            <div className="Employee-Dashboard-Container">
+            <div className="Employee-Dashboard-Container"  onClick={()=>{history('/profile')}}>
                 <div className="Child-Container">
                     <EmployeeDuties></EmployeeDuties>
                 </div>

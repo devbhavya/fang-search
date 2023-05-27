@@ -1,23 +1,22 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Routes } from "react-router-dom";
 import Getresults from "./components/getresults";
-import Links from "./components/links";
-import "./App.css";
-import UserList from "./components/result";
-import Company from "./components/company";
-import Andlinks from "./components/andlinks";
+// import "./App.css";
 import EmployeeDashboard from './components/EmployeeDashboard';
-// import SearchComp from './components/SearchPage/Search'
+import Letters from './components/SearchPage/Letters'
+import Details from "./components/employeeprofilepage/Details";
 
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
-        <h1>hello</h1>
-      </BrowserRouter> */}
-      <BrowserRouter></BrowserRouter>
-      <h1> hello </h1>
-      <Getresults />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Letters />}></Route>
+          <Route path="/search" element={<Getresults />}></Route>
+          <Route path="/dashboard" element={<EmployeeDashboard />}></Route>
+          <Route path="/profile" element={<Details />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

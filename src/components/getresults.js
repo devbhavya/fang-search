@@ -7,7 +7,11 @@ import UserList from "./result";
 import Company from "./company";
 import Andlinks from "./andlinks";
 
+
 const Getresults = () => {
+
+  
+
   return (
     <div>
   <div className="wrapper">

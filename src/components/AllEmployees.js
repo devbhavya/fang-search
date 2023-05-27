@@ -4,28 +4,17 @@ import { useState } from 'react';
 import 'react-calendar/dist/Calendar.css';
 import Calendar from "react-calendar";
 import  styled from "styled-components";
-import moment from 'moment'
-
+import moment from 'moment';
 const AllEmployees = () =>{
-    const desiredStartDate = moment("05/24/2023")
-  const desiredEndDate = moment("05/30/2023")
-
-  const tileContent = ({ date }) => {
-    const isDesiredRange=date === desiredStartDate ;
-    const tileStyle = {
-        backgroundColor: isDesiredRange ? '#ffcccc' : 'transparent',
-        // Add any other desired styles here
-      };
-    // Check if the current date falls within the desired range
-    if (date === desiredStartDate ){
-      return <div style={tileStyle}>{date.getDate()}</div>;
-    }
-    if(date === desiredEndDate){
-        return 'desired-end-date';
-    }
-    return null; // Return null for no custom class
-  };
-  console.log("sgddsg")
+    const desiredStartDate = moment("05/15/2023");
+    const desiredStartDate2= moment("05/22/2023");
+    const desiredStartDate3= moment("05/29/2023");
+    const desiredEndDate2= moment("05/21/2023");
+    const desiredEndDate3= moment("05/28/2023");
+  const desiredEndDate = moment("05/31/2023");
+  const morningShiftDesiredStartDate = moment("05/09/2023");
+  const morningShiftDesiredEndDate = moment("05/14/2023");
+  console.log("sgddsg");
     return(
         <div className="All-Employees-Container">
             <div className="All-Employees-Data">
@@ -37,12 +26,22 @@ const AllEmployees = () =>{
             <div className="All-Employees-Calender">
                 {/* <CalendarContainer> */}
                     <Calendar
-                       tileContent={tileContent}
-                       tileClassName={({date}) =>{
-                        const currentDate = moment(date)
-                        if (desiredStartDate.isSame(currentDate)) return 'first-date';
-                        if (desiredEndDate.isSame(currentDate) ) return 'last-date';
-                        if (moment(date).isBetween(desiredStartDate, desiredEndDate)) return 'middle-date'
+                        
+                        tileClassName={({date}) =>{
+                        const currentDate = moment(date);
+                        if (desiredStartDate.isSame(currentDate)) return 'middle-date first-date';
+                        if (desiredStartDate2.isSame(currentDate)) return 'middle-date first-date';
+                        if (desiredStartDate3.isSame(currentDate)) return 'middle-date first-date';
+                        if (desiredEndDate.isSame(currentDate) ) return 'middle-date last-date';
+                        if (desiredEndDate2.isSame(currentDate) ) return 'middle-date last-date';
+                        if (desiredEndDate3.isSame(currentDate) ) return 'middle-date last-date';
+                        if (morningShiftDesiredStartDate.isSame(currentDate) ) return 'morningShift-middle-date mornningShift-start-date';
+                        if (morningShiftDesiredEndDate.isSame(currentDate) ) return 'morningShift-middle-date mornningShift-end-date';
+                        if (moment(date).isBetween(desiredStartDate, desiredEndDate)) return 'middle-date';
+
+                        
+                        if (moment(date).isBetween(morningShiftDesiredStartDate, morningShiftDesiredEndDate)) return 'morningShift-middle-date';
+                        else return 'null-days';
                        }}
                     />
                     
@@ -55,42 +54,3 @@ const AllEmployees = () =>{
     );
 };
 export default AllEmployees;
-const CalendarContainer=styled(Calendar)`
-
-    // background-color:#d4f7d4;
-    width:auto;
-    border-radius:30px;
-    background: #FFFBFB;
-    border:0px;
-    // height:280px;
-    //  padding-left:50px;
-    //  line-height:30px;
-    // font-size:300px;
-    // line-weight:100px;
-
-    // .DayPicker {
-    //     /* Adjust the size of the calendar container */
-    //     width: 100px;
-    //     height: 10px;
-    //     color:yellow;
-    //   }
-    
-    //   .DayPicker-Month {
-    //     /* Adjust the size of each month within the calendar */
-    //     width: 100%;
-    //     height: 400px;
-    //   }
-    
-    //   .DayPicker-Day {
-    //     /* Adjust the size of each day within the calendar */
-    //     width: 40px;
-    //     height: 40px;
-    //     font-size: 16px;
-    //   }
-    .desired-range {
-        background-color: #ffcccc;
-        color:Blue;
-        /* Add any other desired styles */
-      }
-      
-`;

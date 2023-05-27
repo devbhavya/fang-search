@@ -1,4 +1,4 @@
-.company {
+.compan {
   box-sizing: border-box;
   position: relative;
   width: 403px;
@@ -37,7 +37,7 @@
 
   color: #000000;
 }
-.company ul li {
+.compan ul li {
   list-style-type: none;
   float: left;
 }
@@ -89,7 +89,7 @@
 
   color: #4c62cd;
 }
-.company .subtitle {
+.compan .subtitle {
   position: relative;
   left: 10px;
   top: 10px;
@@ -100,7 +100,7 @@
   line-height: 22px;
   color: #000000;
 }
-.company .sublinks {
+.compan .sublinks {
   position: relative;
   left: 10px;
   font-weight: 400;
@@ -140,7 +140,7 @@ top: -50px;
 left: 200px;
 }
 @media (max-width: 768px){
-  .company{
+  .compan{
     display: none;
   }
 }

@@ -1,8 +1,17 @@
 import React from "react";
 import './Letters.css';
+import { Link } from 'react-router-dom';
+import Logo from './fanglogo.jpg';
 function Letters(){
     return(
         <div>
+            <form>
+        <input class="search-bar" type="text" title="Search"></input>
+        <Link to="/search"><button class="button">Fang Search</button></Link>
+        </form>
+        <div >
+            <img src={Logo} alt="fang logo" className="image-fang"></img>
+        </div>
             <div className="textings">
                 <text>Fang</text>
             </div>
