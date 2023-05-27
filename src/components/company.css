@@ -1,0 +1,146 @@
+.company {
+  box-sizing: border-box;
+  position: relative;
+  width: 403px;
+  height: 802px;
+  top: 25px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+}
+.map1 {
+  width: 50%;
+  height: 20%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: block;
+}
+.map2 {
+  width: 50%;
+  height: 160px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.company_name {
+  position: relative;
+  width: 100%;
+  left: 9px;
+  top: -10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.company ul li {
+  list-style-type: none;
+  float: left;
+}
+.about_button {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 3px;
+  padding: 4px 10px;
+  margin: 10px;
+  left: -40px;
+  top: -35px;
+  border-color: #e1e1e1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 8px;
+  line-height: 10px;
+}
+.street_address {
+  position: absolute;
+  width: 100%;
+  left: 10px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 10px;
+}
+.company_line {
+  position: relative;
+  width: 100%;
+  background: rgba(217, 217, 217, 0.14);
+  border: 1px solid rgba(155, 155, 155, 0.27);
+}
+.main_address {
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+.suggest_edit {
+  position: relative;
+  left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #4c62cd;
+}
+.company .subtitle {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.company .sublinks {
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #4c62cd;
+}
+.addphone{
+    color: #000000;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+}
+.bi-box-arrow-in-right{
+    position: relative;
+    left: 10px;
+}
+.bi-exclamation-circle{
+    position: absolute;
+    top: 675px;
+    left: 90px;
+}
+.aaq{
+    left: 300px;
+    top: -60px;
+}
+.sendbtn{
+    left: 300px;
+    top: 0px;
+}
+.war{
+top: -50px;
+left: 200px;
+}
+.aap{
+top: -50px;
+left: 200px;
+}
+@media (max-width: 768px){
+  .company{
+    display: none;
+  }
+}

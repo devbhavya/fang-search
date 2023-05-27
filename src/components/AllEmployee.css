@@ -355,3 +355,7 @@ color: #37e32b;
   color:Blue;
   /* Add any other desired styles */
 }
+
+.middle-date {
+  background-color: #000000 !important;
+}

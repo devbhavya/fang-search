@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+body {
+  margin: 30px 40px;
+  line-height: 1.4;
+  font-family: 'Inter';
+font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  padding-right: 30px;
+  grid-template-areas: 
+    "Searchbar Searchbar Logo";
+  position: sticky;
+  top: 0;
+  background-color:white;
+  z-index: 2;
+  padding-bottom: 10px;
+  border-bottom: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logo {
+  grid-area: Logo;
+  margin-top: 50px;
+}
+.logo img {
+  width: 110px;
+  height: 30px;
+  position: relative;
+  left: 50%;
+}
+.blank{
+    grid-area: Blank;
+}
+.results{
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 50px;
+    grid-template-columns: 1.6fr 1fr;
+}
+.menu , .profile{
+  display: none;
+}
+.bi{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+/* .bi-person-circle{
+  display: none;
+} */
+@media (max-width: 768px){
+  body{
+    margin: 10px 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .menu{
+    display: block;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
   }
-  to {
-    transform: rotate(360deg);
+  .profile{
+    height: 24px;
+    width: 24px;
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+  }
+  .desklinks{
+    display: none;
+  }
+  .wrapper {
+        padding-right: 0%;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: 
+          "Logo"
+          "Searchbar";
+        margin-bottom: 0px;
+        height: 120px;
+        }  
+    .links{
+        display: none;
+    } 
+    .logo{
+      position: relative;
+      width: 172px;
+      height: 38px;
+      top: -50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .logo img {
+      left: 20%;
+    }
+    .results{
+      display: block;
   }
 }

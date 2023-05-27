@@ -1,0 +1,381 @@
+.rectangletwo{
+position: absolute;
+width: 700px;
+height: 400px;
+left: 520px;
+top: 135px;
+
+border: 1.01389px solid rgba(201, 201, 201, 0.29);
+box-shadow: 0px 4.05556px 4.05556px rgba(0, 0, 0, 0.25);
+border-radius: 5.06944px;
+}
+
+.name{
+    position: absolute;
+width: 122px;
+height: 30px;
+left: 700px;
+top: 200px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height, or 91% */
+
+
+color: #000000;
+
+
+}
+.locationone{
+position: absolute;
+width: 69px;
+height: 20px;
+left: 590px;
+top: 280px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.locationtwo{
+    /* Hyderabad, Telangana, India. */
+
+position: absolute;
+width: 179px;
+height: 40px;
+left: 579px;
+top: 305px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.2222px;
+line-height: 20px;
+
+color: #000000;
+
+
+}
+
+.dob{
+    /* Date of Birth */
+
+position: absolute;
+width: 100px;
+height: 20px;
+left: 587px;
+top: 365px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.dobdate{
+    /* 02/10/1997 */
+
+position: absolute;
+width: 88px;
+height: 20px;
+left: 589px;
+top: 390px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.type{
+    /* Type */
+
+position: absolute;
+width: 40px;
+height: 20px;
+left: 590px;
+top: 430px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+}
+.na{
+    /* N/A */
+
+position: absolute;
+width: 30px;
+height: 20px;
+left: 594px;
+top: 455px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.contact{
+    /* Contact */
+
+position: absolute;
+width: 64px;
+height: 20px;
+left: 862px;
+top: 275px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.number{
+    /* 9876543210 */
+
+position: absolute;
+width: 100px;
+height: 20px;
+left: 858px;
+top: 300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.team{
+    /* Team */
+
+position: absolute;
+width: 44px;
+height: 20px;
+left: 865px;
+top: 357px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.domain{
+    /* UI/UX */
+
+position: absolute;
+width: 46px;
+height: 20px;
+left: 870px;
+top: 382px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.linked{
+    /* Linkedln */
+
+position: absolute;
+width: 68px;
+height: 20px;
+left: 1070px;
+top: 267px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.blood{
+    /* Blood Group */
+
+position: absolute;
+width: 98px;
+height: 20px;
+left: 1070px;
+top: 351px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.group{
+    /* B+ve */
+
+position: absolute;
+width: 40px;
+height: 20px;
+left: 1073px;
+top: 375px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16.2222px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.imageone{
+    box-sizing: border-box;
+
+position: absolute;
+left: 41%;
+right: 58%;
+top: 44.7%;
+bottom: 49.51%;
+width:20px;
+height:25px;
+
+}
+
+.imagetwo{
+
+position: absolute;
+left: 41.3%;
+right: 58%;
+top: 58.5%;
+bottom: 49.51%;
+width:15px;
+height:20px;
+
+}
+
+.imagethree{
+    position: absolute;
+width: 30.42px;
+left:60%;
+top: 44%;
+bottom: 49.69%;
+right: 48%;
+}
+.imagefour{
+    position: absolute;
+left: 60.5%;
+right: 8.33%;
+top: 57%;
+bottom: 10.42%;
+width:20px;
+height: 28px;
+}
+.imagefive{
+    position: absolute;
+width: 23.62px;
+height: 22.31px;
+left: 1075px;
+top: 293px;
+
+}
+
+.imagesix{
+    position: absolute;
+left: 75.5%;
+right: 19.79%;
+top: 42.5%;
+bottom: 49.44%;
+width:25px;
+height:35px;
+
+}
+.imageseven{
+position: absolute;
+left: 40.8%;
+right: 62.71%;
+top: 69%;
+bottom: 30.08%;
+width:30px;
+height:30px;
+
+}
+
+.imageeight{
+    position: absolute;
+width: 13px;
+height: 27px;
+left: 1038px;
+top: 357px;
+height: 30px;
+
+
+}
+.imageemp{
+    position: absolute;
+width: 110px;
+height: 110px;
+left: 580px;
+top: 155px;
+
+}

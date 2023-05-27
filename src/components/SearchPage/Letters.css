@@ -1,0 +1,170 @@
+/* Fang offered in: Hindi */
+.textings{
+position: absolute;
+width: 188px;
+height: 22px;
+left: 365px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FF612F;
+
+}
+.textingss{
+    position: absolute;
+    width: 188px;
+    height: 22px;
+    left: 410px;
+    top: 385px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #000000;
+    
+    }
+
+    /* తెలుగు */
+.telugu{
+position: absolute;
+width: 50px;
+height: 22px;
+left: 550px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #13109D;
+}
+/* മലയാളം */
+.langtwo{
+position: absolute;
+width: 78px;
+height: 22px;
+left: 885px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+
+/* ગુજરાતી */
+.langthree{
+position: absolute;
+width: 55px;
+height: 22px;
+left: 825px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+
+/* ಕನ್ನಡ */
+.langfour{
+position: absolute;
+width: 39px;
+height: 22px;
+left: 775px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+/* ગુજરાતી */
+.langfive{
+position: absolute;
+width: 55px;
+height: 22px;
+left: 715px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+/* Marati */
+.langsix{
+position: absolute;
+width: 54px;
+height: 22px;
+left: 655px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+
+/* বাংলা */
+.langseven{
+position: absolute;
+width: 42px;
+height: 22px;
+left: 605px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
