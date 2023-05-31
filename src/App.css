@@ -46,6 +46,12 @@ font-style: normal;
 button{
   cursor: pointer;
 }
+#menu_svg{
+  display: none;
+}
+#profile_svg{
+  display: none;
+}
 /* .bi-person-circle{
   display: none;
 } */
@@ -53,21 +59,18 @@ button{
   body{
     margin: 10px 20px;
   }
-  .menu{
+  #menu_svg{
     display: block;
-    height: 24px;
-    width: 24px;
     position: absolute;
     left: 5%;
-    top: 3%;
+    top: 10%;
     background-color: white;
     border: 0px;
     cursor: pointer;
   }
-  .profile{
-    height: 24px;
-    width: 24px;
+  #profile_svg{
     display: block;
+    width:auto;
     position: absolute;
     right: 5%;
     top: 3%;

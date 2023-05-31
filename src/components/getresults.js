@@ -15,8 +15,8 @@ const Getresults = () => {
   return (
     <div>
   <div className="wrapper">
-        <button className="menu"><i className="bi bi-list menu"></i></button>
-      <button className="profile"><i className="bi bi-person-circle profile"></i></button>
+        <i class="bi bi-list" id='menu_svg'></i>
+      <i class="bi bi-person-circle" id='profile_svg'></i>
         <Search></Search>
         <div className="logo">
           <img src={Logo} alt="" />

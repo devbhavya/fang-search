@@ -50,3 +50,11 @@
     height: 50px;
     margin-top: -30px;
 }
+.showMoreUpdatedContent{
+    height: 420px;
+    overflow-y: auto;
+}
+.showMoreContent{
+    height: 420px;
+    overflow-y: hidden;
+}
