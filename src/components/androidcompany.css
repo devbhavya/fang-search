@@ -65,13 +65,20 @@ border-radius: 10px;
     color: blue;
   }
   .androidcompany .below{
-    text-align: center;
+    text-align: center; 
     position: relative;
+  }
+  .below ul{
+    display: inline-block;
+    text-align: center;
+  }
+  .below li{
+    float: left;
+    margin: auto 5px;
   }
   .androidcompany .horizontal{
     position: relative;
     top: -15px;
-    margin-bottom: ;
   }
   .androidcompany .map{
     display: grid;

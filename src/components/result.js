@@ -108,7 +108,7 @@ function UserList() {
   return (
     <>
     <div className="search_count">About 18,20,00,000 results(0.47seconds) </div>
-    <div className="search_results" onClick={()=>{history('/dashboard')}}>
+    <div className="search_results">
       {data.map((group) => (
         <div key={group.id}>
           <img className="group_logo" src={group.logo} alt="group-logo"></img>

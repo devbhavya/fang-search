@@ -6,12 +6,12 @@ import "../App.css";
 import UserList from "./result";
 import Company from "./company";
 import Andlinks from "./andlinks";
-
+import {useNavigate} from 'react-router-dom'
 
 const Getresults = () => {
 
   
-
+  const history = useNavigate();
   return (
     <div>
   <div className="wrapper">
@@ -19,7 +19,7 @@ const Getresults = () => {
       <i class="bi bi-person-circle" id='profile_svg'></i>
         <Search></Search>
         <div className="logo">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="" onClick={()=>{history('/')}}/>
         </div>
       </div>
       <Andlinks></Andlinks>
