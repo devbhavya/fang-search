@@ -7,6 +7,7 @@ import UserList from "./result";
 import Company from "./company";
 import Andlinks from "./andlinks";
 import {useNavigate} from 'react-router-dom'
+import Test from './SearchResults/test';
 
 const Getresults = () => {
 

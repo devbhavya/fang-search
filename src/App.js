@@ -6,6 +6,7 @@ import EmployeeDashboard from './components/EmployeeDashboard';
 import Letters from './components/SearchPage/Search'
 import Details from "./components/employeeprofilepage/Details";
 import Blank2 from "./components/SearchResults/blank2";
+import Test from "./components/SearchResults/test";
 import Error from "./components/employeeprofilepage/error";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Route path="/dashboard" element={<EmployeeDashboard />}></Route>
           {/* <Route path="/profile" element={<Blank />}></Route> */}
           <Route path="/profile/:userId" element={<Details />}></Route>
-          <Route path="/blank" element={<Blank2 />}></Route>
+          <Route path="/profile/test" element={<Test />}></Route>
           <Route path="/profile/error" element={<Error />}></Route>
         </Routes>
       </BrowserRouter>
