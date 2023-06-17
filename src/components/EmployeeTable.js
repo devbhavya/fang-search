@@ -37,7 +37,7 @@ const EmployeeTable = (props) =>{
             {
                         data.map((item) =>(
                             <tr onClick={()=>{history('/profile/'+item.Name)}}>
-                                <td>{count}</td>
+                                <td>{count++}</td>
                                 <td><i class="bi bi-person-circle" ></i><p className="Table-Employee-Name">{item.Name}</p></td>
                                 <td>Morning Shift</td>
                                 <td>{item.DOB_as_per_certificate.slice(0,10)}</td>
@@ -48,7 +48,6 @@ const EmployeeTable = (props) =>{
                                 <button className="actions-button"><i class="bi bi-pencil-fill"></i></button>
                                 <button className="actions-button"><i class="bi bi-three-dots"></i></button>
                                 </td>
-                                {++count}
                             </tr>
 
                         ))

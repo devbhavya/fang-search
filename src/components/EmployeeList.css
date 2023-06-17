@@ -3,6 +3,9 @@
     background: #FFFBFB;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+    width:auto;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
@@ -25,7 +28,7 @@
     font-size: 24px;
     line-height: 28px;
     color: #210FF9;
-    margin-top: -45px;
+    margin-top: -53px;
     padding-right: 30px;
     text-align: right;
 }
@@ -54,7 +57,16 @@
     height: 420px;
     overflow-y: auto;
 }
-.showMoreContent{
-    height: 420px;
-    overflow-y: hidden;
+
+@media (max-width:480px){
+    .Employee-List-Container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #Employee-List-Header{
+        padding-left: 20px;
+    }
+    .showMoreUpdatedContent{
+        overflow-x: auto;
+    }
 }

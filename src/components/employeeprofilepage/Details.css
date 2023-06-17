@@ -54,7 +54,7 @@
   top: 50px;
   border-radius: 101.389px;
 }
-.emp_name{
+.emp_name {
   position: relative;
   width: 60%;
   height: 30px;
@@ -79,30 +79,31 @@
 }
 .emp_data .svgs {
   position: relative;
-  width: 25px;
-  left: -30px;
-  margin-top: 20px;
+  width: 31px;
+  top: 5px;
 }
 .emp_data .title {
   position: relative;
-  width: 120px;
-  font-family: "Inter";
+  width: 100px;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 16.2222px;
   line-height: 20px;
-  top: -42px;
+  top: -48px;
+  left: 40px;
 }
 .emp_data .value {
   position: relative;
-  width: 130px;
+  width: 110px;
   overflow-wrap: break-word;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 16.2222px;
   line-height: 20px;
-  top: -44px;
+  top: -60px;
+  left: 40px;
 }
 .emp_details_mobile {
   display: none;
@@ -113,10 +114,10 @@
     grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
   }
-  .emp_img{
+  .emp_img {
     left: 10%;
   }
-  .emp_details{
+  .emp_details {
     display: block;
     box-sizing: border-box;
 
@@ -141,57 +142,57 @@
     top: 30px;
     border-radius: 101.389px;
   }
-  .emp_name{
+  .emp_name {
     position: absolute;
-width: 60%;
-height: 18px;
-left: 116px;
-top: 30px;
+    width: 60%;
+    height: 18px;
+    left: 116px;
+    top: 30px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 15px;
-line-height: 18px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 18px;
 
-color: #000000;
+    color: #000000;
   }
-  .emp_data{
+  .emp_data {
     display: grid;
     grid-gap: 0px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     list-style: none;
     position: relative;
     top: 30px;
     margin: 10px;
+    margin-top: 30px;
   }
-  .emp_data .svgs{
-    width: 10px;
+  .emp_data .svgs {
+    width: 20px;
     position: relative;
-    left: -18px;
   }
-  .emp_data .title{
+  .emp_data .title {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 8px;
-line-height: 7px;
-position: relative;
-width: 80%;
-left: 0px;
-top: -22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    position: relative;
+    width: 80%;
+    left: 25px;
+    top: -35px;
   }
-  .emp_data .value{
+  .emp_data .value {
     font-family: 'Inter';
-    width: 50%;
-font-style: normal;
-font-weight: 500;
-font-size: 6px;
-line-height: 7px;
-position: relative;
-left: 0px;
-top: -22px;
-overflow-wrap: break-word;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    position: relative;
+    left: 25px;
+    width: 100px;
+    top: -40px;
+    overflow-wrap: break-word;
   }
   .emp_heading {
     position: absolute;
@@ -206,7 +207,7 @@ overflow-wrap: break-word;
     font-size: 16.2222px;
     line-height: 20px;
     /* identical to box height */
-  
+
     color: #000000;
   }
 }

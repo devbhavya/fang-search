@@ -32,6 +32,7 @@ function Search() {
           value={value}
           onChange={changeHandler}
           required
+          autoFocus
           placeholder="Enter Your Name / Email / Id"
         ></input>
         <br></br>
@@ -61,7 +62,7 @@ function Search() {
                 item.Name.toLowerCase().includes(value.toLowerCase())
               )
               .map((item) => (
-                <p
+                <p className="suggestions_value"
                   onClick={() => {
                     history("/profile/" + item.Name);
                   }}

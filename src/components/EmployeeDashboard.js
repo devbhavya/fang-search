@@ -64,17 +64,7 @@ const EmployeeDashboard = () =>{
             <Header></Header>
             <EmployeeDashboardHeader details={EmployeeDetails}></EmployeeDashboardHeader>
             {/* onClick={()=>{history('/profile')} */}
-            <div className="Employee-Dashboard-Container">
-                <div className="Child-Container">
-                    <EmployeeDuties></EmployeeDuties>
-                </div>
-                <div className="Child-Container">
-                    <EmployeeList details={EmployeeDetails}></EmployeeList>
-                </div>
-                <div className="Child-Container">
-                    <AllEmployees></AllEmployees>
-                </div>   
-            </div>
+            <EmployeeList details={EmployeeDetails}></EmployeeList>
         </>
     )
     

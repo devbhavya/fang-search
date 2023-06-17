@@ -13,12 +13,12 @@ const EmployeeList = (props) =>{
     <div className="Employee-List-Container">
         <p id="Employee-List-Header">Employee List</p>
         <p id="Employee-List-Dob">DOB</p>
-        <div className={showMoreIdName}>
+        <div className="showMoreUpdatedContent">
         <EmployeeListData data={props.details}></EmployeeListData>
         </div>
-        <div className="Show-More-Container">
+        {/* <div className="Show-More-Container">
         <button id="Show-More-Button" onClick={showMoreHandlar}>Show More</button>
-        </div>
+        </div> */}
     </div>
     </>
     
